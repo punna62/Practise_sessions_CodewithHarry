@@ -1,0 +1,41 @@
+"""1. Write a python program to add two numbers.
+2. Write a python program to find remainder when a number is divided by z.
+3. Check the type of variable assigned using input () function.
+4. Use comparison operator to find out whether ‘a’ given variable a is greater than
+‘b’ or not. Take a = 34 and b = 80
+5. Write a python program to find an average of two numbers entered by the user.
+6. Write a python program to calculate the square of a number entered by the user.
+
+
+#3. Check the type of variable assigned using input () function.
+Data_list = [8.323212,True,1/2,'this is a string']
+
+for i in Data_list:
+    print({type(i)})
+
+#4. Use comparison operator to find out whether ‘a’ given variable a is greater than
+
+a = input("Enter the first number")
+b = input("Enter the second number")
+
+if a > b:
+    print(f"{a} is greated than {b}")
+else:
+    print(f"{b} is greater than {a}")
+
+#5. Write a python program to find an average of two numbers entered by the user.
+def avg(a,b):
+    print(f"average of {a} and {b} is {int((a+b)/2)}")
+
+a = int(input("Enter the first number\n"))
+b = int(input("Enter the second number\n"))
+
+avg(a,b)
+"""
+#6. Write a python program to calculate the square of a number entered by the user.
+def Square(a):
+    print(f"square of {a} is {int(a**2)}")
+
+a = int(input("Enter the first number\n"))
+
+Square(a)
